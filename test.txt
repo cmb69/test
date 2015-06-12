@@ -1,6 +1,6 @@
 $Id$
 foo
 bar
-baz
+bazz
 qux
 doe
