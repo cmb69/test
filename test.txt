@@ -4,3 +4,4 @@ bar
 baz
 qux
 doe
+only in tag
