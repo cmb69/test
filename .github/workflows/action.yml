@@ -6,4 +6,8 @@ jobs:
     steps:
       - name: Check
         run: echo $GITHUB_EVENT_NAME, $GITHUB_HEAD_REF, $GITHUB_REF
-
+      - name: ccache
+        uses: hendrikmuhs/ccache-action@v1.2
+        with:
+          key: ccache
+          save: false
