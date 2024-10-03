@@ -1,0 +1,9 @@
+name: Workflow
+on: [push, pull_request]
+jobs:
+  Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check
+        run: echo $GITHUB_EVENT_NAME, $GITHUB_HEAD_REF, $GITHUB_REF
+
